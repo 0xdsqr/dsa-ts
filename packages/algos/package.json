@@ -1,8 +1,12 @@
 {
-    "name": "@dsqr/alogs-ts",
-    "version": "0.0.0-develop.0",
-    "type": "module",
-    "bin": {
-        "hoo": "./src/index.ts"
-    }
+  "name": "@dsqr/algos-ts",
+  "version": "0.0.0-develop.0",
+  "type": "module",
+  "bin": {
+    "hoo": "./src/index.ts"
+  },
+  "scripts": {
+    "clean": "git clean -xdf node_modules dist .turbo",
+    "test:coverage": "bun test --coverage"
+  }
 }

@@ -1,5 +1,5 @@
 function hello() {
-    return "world";
+  return "world"
 }
 
-export { hello };
+export { hello }

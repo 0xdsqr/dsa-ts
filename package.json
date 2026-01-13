@@ -1,15 +1,16 @@
 {
-    "name": "hoo",
-    "type": "module",
-    "private": true,
-    "workspaces": [
-        "packages/alogs"
-    ],
-    "scripts": {
-        "clean": "git clean -xdf node_modules dist .wrangler .turbo"
-    },
-    "devDependencies": {
-        "@types/bun": "latest",
-        "typescript": "^5"
-    }
+  "name": "hoo",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/algos"
+  ],
+  "scripts": {
+    "clean": "git clean -xdf node_modules dist .wrangler .turbo",
+    "test:coverage": "bun --filter '*' test:coverage"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
 }

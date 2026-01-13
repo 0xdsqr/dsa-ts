@@ -11,7 +11,7 @@
       "*.jsx"
       "*.json"
     ];
-    exclude = [
+    excludes = [
       "**/node_modules/**"
     ];
     settings = {
